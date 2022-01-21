@@ -6,8 +6,108 @@ body {
 	
 }
 
-/* Mobile ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+
+@media (min-width:320px)  { 
+
+img { 
+   display:none;
+ 
+   
+}
+
+#logoimg{
+	display: inline-block;
+	width:200px;
+	height:auto;
+	margin-left:50px;
+	margin-bottom:35px;
+	
+}
+
+span{
+	text-align: right;
+    margin-right:59px;
+	float:left;
+}
+
+.success{
+	color:green;
+}
+
+.error{
+	
+	color:red;
+}
+.lcard{
+	
+	margin-top:180px;
+
+	
+}
+
+h2{
+	 font-family: 'Noto Serif';
+	 font-weight: 700;
+	 color: white;
+	 margin-left:23px;
+	
+}
+
+input::placeholder {
+  color: white !important;
+  font-size: 1em;
+ 
+}
+
+p,a{  
+    font-family: 'Noto Serif';
+	color: white;
+	text-align: right;
+    margin-right:59px;
+	float:right;
+	
+}
+
+
+
+span{
+	
+	margin-left:30px;
+	color: white;
+	
+}
+.btn-next:hover {background-color: #05FC27}
+.btn-next{
+	
+	background-color:#1C3763;
+	border: none;
+	font-family: 'Noto Serif';
+    font-weight: 700;
+	width:300px;
+	padding:12px;
+	border-radius: 75px;
+	color: white;
+    font-size: 1em;
+   margin-left:23px;
+	
+}
+#email,#password{
+    	
+	background: transparent;
+    border: 2px solid white;
+	font-family: 'Noto Serif';
+    font-weight: 700;
+	width:300px;
+	padding:12px;
+	margin:20px;
+	border-radius: 75px;
+	
+}
+ }
+
+
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+
 img { 
    display:none;
  
@@ -107,25 +207,21 @@ span{
 }
 
 
+@media (min-width:641px)  { 
 
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 768px) {
-	
-/* Styles */
-
-img {
-  position: relative;
-   width: 1100px; 
-   overflow: hidden;
-   float:left;
-   z-index: -1;
-   background-size: contain;
-   
-  height: auto;
+img { 
+   display:none;
+ 
    
 }
+
 #logoimg{
-	display:none;
+	display: inline-block;
+	width:200px;
+	height:auto;
+	margin-left:50px;
+	margin-bottom:35px;
+	
 }
 
 span{
@@ -187,6 +283,101 @@ span{
 	border: none;
 	font-family: 'Noto Serif';
     font-weight: 700;
+	width:300px;
+	padding:12px;
+	border-radius: 75px;
+	color: white;
+    font-size: 1em;
+   margin-left:23px;
+	
+}
+#email,#password{
+    	
+	background: transparent;
+    border: 2px solid white;
+	font-family: 'Noto Serif';
+    font-weight: 700;
+	width:300px;
+	padding:12px;
+	margin:20px;
+	border-radius: 75px;
+	
+}
+
+ }
+
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+	
+/* Styles */
+
+img {
+  position: relative;
+   width: 1100px; 
+   overflow: hidden;
+   float:left;
+   z-index: -1;
+   background-size: contain;
+   
+  height: auto;
+   
+}
+#logoimg{
+	display:none;
+}
+
+span{
+	text-align: right;
+    margin-right:59px;
+	float:left;
+}
+
+
+.lcard{
+	
+	margin-top: 155px;
+    margin-left: 69px;
+	
+	
+	
+}
+
+	
+h2{
+	 font-family: 'Noto Serif';
+	 font-weight: 700;
+	 color: white;
+	 margin-left:23px;
+	
+}
+
+input::placeholder {
+  color: white !important;
+  font-size: 1em;
+ 
+}
+
+p,a{  
+    font-family: 'Noto Serif';
+	color: white;
+	text-align: right;
+    float:right;
+	
+}
+
+span{
+	
+	margin-left:30px;
+	color: white;
+	
+}
+.btn-next:hover {background-color: #05FC27}
+.btn-next{
+	
+	background-color:#1C3763;
+	border: none;
+	font-family: 'Noto Serif';
+    font-weight: 700;
 	width:450px;
 	padding:12px;
 	border-radius: 75px;
@@ -203,17 +394,18 @@ span{
     font-weight: 700;
 	width:450px;
 	padding:12px;
-	margin:20px;
+    margin:20px;
 	border-radius: 75px;
 	
 }
 
 
 
-}
+ }
 
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+
 /* Styles */
 
 img {
@@ -268,8 +460,6 @@ p,a{
 	
 }
 
-
-
 span{
 	
 	margin-left:30px;
@@ -307,3 +497,101 @@ span{
 
 
 }
+
+
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+
+/* Styles */
+
+img {
+  position: relative;
+ height: 800px; width: 1100px;  
+  overflow: hidden;
+  float:left;
+  z-index: -1;
+}
+
+span{
+	text-align: right;
+    margin-right:59px;
+	float:left;
+}
+
+.success{
+	color:green;
+}
+
+.error{
+	
+	color:red;
+}
+.lcard{
+	
+	margin-top:180px;
+
+	
+}
+
+h2{
+	 font-family: 'Noto Serif';
+	 font-weight: 700;
+	 color: white;
+	 margin-left:23px;
+	
+}
+
+input::placeholder {
+  color: white !important;
+  font-size: 1em;
+ 
+}
+
+p,a{  
+    font-family: 'Noto Serif';
+	color: white;
+	text-align: right;
+    margin-right:59px;
+	float:right;
+	
+}
+
+span{
+	
+	margin-left:30px;
+	color: white;
+	
+}
+.btn-next:hover {background-color: #05FC27}
+.btn-next{
+	
+	background-color:#1C3763;
+	border: none;
+	font-family: 'Noto Serif';
+    font-weight: 700;
+	width:450px;
+	padding:12px;
+	border-radius: 75px;
+	color: white;
+    font-size: 1em;
+   margin-left:23px;
+	
+}
+#email,#password{
+    	
+	background: transparent;
+    border: 2px solid white;
+	font-family: 'Noto Serif';
+    font-weight: 700;
+	width:450px;
+	padding:12px;
+	margin:20px;
+	border-radius: 75px;
+	
+}
+
+
+ }
+
+
+
